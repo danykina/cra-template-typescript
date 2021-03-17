@@ -14,6 +14,20 @@ npx create-react-app my-app --template @danykina/cra-template-typescript
 yarn create react-app my-app --template @danykina/cra-template-typescript
 ```
 
+# Local template use
+
+Clone repo template
+
+```
+git clone git@github.com:danykina/cra-template-typescript.git
+```
+
+Create new app using the local template
+
+```sh
+npx create-react-app my-app --template file:./cra-template-typescript
+```
+
 For more information, please refer to:
 
 - [Getting Started](https://create-react-app.dev/docs/getting-started) – How to create a new app.
